@@ -1,0 +1,31 @@
+/* DiceButton.css */
+
+.dice-button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .dice-button:hover {
+    transform: scale(1.1);
+  }
+  
+  @media (max-width: 768px) {
+    .dice-button {
+      padding: 10px 20px;
+      font-size: 22px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .dice-button {
+      padding: 8px 18px;
+      font-size: 20px;
+    }
+  }
+  
